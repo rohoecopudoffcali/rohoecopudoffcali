@@ -1,26 +1,12 @@
 /* =========================================================
    THE KAKISTOCRACY OF ROHOECOPUDOFFCALI
-   ELEGANT HISTORICAL GOVERNMENT STYLESHEET
+   OFFICIAL EXTREMELY GAY GOVERNMENT STYLESHEET
+   Approved by the Ministry of Excessive Color
    ========================================================= */
 
-:root {
-    --ink: #2f241d;
-    --ink-soft: #5c4a3d;
-    --paper: #f4ecd8;
-    --paper-deep: #e6d7b8;
-    --cream: #fffaf0;
-    --wine: #6d2638;
-    --wine-dark: #431724;
-    --gold: #b18a45;
-    --gold-light: #d8bd7a;
-    --green: #3f5a4c;
-    --border: #8f7655;
-    --shadow: rgba(55, 36, 23, 0.18);
-    --content-width: 1050px;
-}
 
 /* -----------------------------
-   BASE
+   BASIC PAGE SETUP
    ----------------------------- */
 
 * {
@@ -33,26 +19,33 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
 
-    color: var(--ink);
-
-    background:
-        linear-gradient(rgba(255, 250, 240, 0.86), rgba(244, 236, 216, 0.92)),
-        repeating-linear-gradient(
-            0deg,
-            transparent 0,
-            transparent 28px,
-            rgba(90, 65, 42, 0.035) 29px
-        );
+    color: #190020;
 
     font-family:
-        Georgia,
-        "Times New Roman",
-        serif;
+        "Comic Sans MS",
+        "Trebuchet MS",
+        Arial,
+        sans-serif;
 
-    font-size: 17px;
-    line-height: 1.75;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(228, 3, 3, 0.85),
+            rgba(255, 140, 0, 0.85),
+            rgba(255, 237, 0, 0.85),
+            rgba(0, 128, 38, 0.85),
+            rgba(0, 77, 255, 0.85),
+            rgba(117, 7, 135, 0.85)
+        );
+
+    background-size: 400% 400%;
+
+    animation:
+        rainbow-background 12s ease infinite;
 }
+
 
 /* -----------------------------
    HEADER
@@ -61,752 +54,1374 @@ body {
 header {
     position: relative;
 
-    padding: 42px 20px 34px;
+    padding: 35px 20px 45px;
 
-    color: var(--cream);
+    text-align: center;
+
+    color: white;
 
     background:
         linear-gradient(
-            135deg,
-            var(--wine-dark),
-            var(--wine),
-            #7d3a48
+            to bottom,
+            #e40303 0%,
+            #e40303 16.6%,
+            #ff8c00 16.6%,
+            #ff8c00 33.2%,
+            #ffed00 33.2%,
+            #ffed00 49.8%,
+            #008026 49.8%,
+            #008026 66.4%,
+            #004dff 66.4%,
+            #004dff 83%,
+            #750787 83%,
+            #750787 100%
         );
 
-    border-top: 12px double var(--gold-light);
-    border-bottom: 12px double var(--gold-light);
+    border-top: 16px ridge gold;
+    border-bottom: 16px ridge gold;
 
     box-shadow:
-        0 6px 16px rgba(40, 20, 20, 0.28);
-}
+        0 10px 0 #5bcffa,
+        0 20px 0 #f5abb9,
+        0 30px 0 white,
+        0 40px 0 #f5abb9,
+        0 50px 0 #5bcffa;
 
-header::before,
-header::after {
-    position: absolute;
-    top: 18px;
-
-    color: var(--gold-light);
-
-    font-size: 2rem;
+    overflow: hidden;
 }
 
 header::before {
-    content: "❦";
-    left: 28px;
+    content:
+        "🌈 🪨 🐴 📎 💧 ⛺ 📚 🐸 🌈 🪨 🐴 📎 💧 ⛺ 📚 🐸 🌈";
+
+    display: block;
+
+    margin-bottom: 20px;
+
+    font-size: 1.8rem;
+    letter-spacing: 10px;
+
+    white-space: nowrap;
+
+    animation:
+        parade-march 8s linear infinite;
 }
 
 header::after {
-    content: "❦";
-    right: 28px;
-}
+    content:
+        "⚠ OFFICIAL GOVERNMENT PRIDE ZONE ⚠";
 
-header h1,
-header p,
-header nav,
-header hr {
-    width: min(var(--content-width), 92%);
-    margin-left: auto;
-    margin-right: auto;
-}
+    display: inline-block;
 
-header h1 {
-    margin-top: 0;
-    margin-bottom: 6px;
+    margin-top: 25px;
+    padding: 12px 20px;
+
+    color: yellow;
+
+    background: black;
+
+    border:
+        7px dashed hotpink;
 
     font-family:
-        "Snell Roundhand",
-        "Apple Chancery",
-        "URW Chancery L",
-        cursive;
+        Impact,
+        "Arial Black",
+        sans-serif;
+
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+
+    animation:
+        warning-flash 1s infinite alternate;
+}
+
+
+/* -----------------------------
+   MAIN TITLE
+   ----------------------------- */
+
+h1 {
+    margin: 0;
+
+    color: white;
+
+    font-family:
+        Impact,
+        "Arial Black",
+        sans-serif;
 
     font-size:
-        clamp(2.8rem, 6vw, 5.8rem);
+        clamp(2.5rem, 7vw, 6rem);
 
-    font-weight: 500;
     line-height: 1.05;
 
-    text-align: center;
-
-    letter-spacing: 0.02em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 
     text-shadow:
-        0 2px 0 rgba(0, 0, 0, 0.25);
+        4px 4px 0 #000000,
+        8px 8px 0 #e40303,
+        12px 12px 0 #ff8c00,
+        16px 16px 0 #ffed00,
+        20px 20px 0 #008026,
+        24px 24px 0 #004dff,
+        28px 28px 0 #750787;
+
+    transform:
+        rotate(-1deg);
 }
 
 header p {
-    margin-top: 0;
-    margin-bottom: 24px;
+    display: inline-block;
 
-    color: #eadfca;
+    margin-top: 45px;
+    padding: 12px 26px;
 
-    font-family:
-        "Baskerville",
-        Georgia,
-        serif;
+    color: white;
 
-    font-size: 0.95rem;
-    letter-spacing: 0.18em;
-    text-align: center;
+    background:
+        linear-gradient(
+            90deg,
+            #5bcffa,
+            #f5abb9,
+            white,
+            #f5abb9,
+            #5bcffa
+        );
+
+    border:
+        8px double black;
+
+    border-radius:
+        50%;
+
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
     text-transform: uppercase;
+
+    text-shadow:
+        2px 2px 0 black;
+
+    transform:
+        rotate(2deg);
 }
 
-header hr {
-    display: none;
-}
 
 /* -----------------------------
    NAVIGATION
    ----------------------------- */
 
 nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    padding: 10px 0;
+    margin: 30px auto 0;
+    padding: 20px;
 
     background:
-        rgba(37, 16, 24, 0.42);
+        repeating-linear-gradient(
+            90deg,
+            #fcf434 0,
+            #fcf434 28px,
+            #ffffff 28px,
+            #ffffff 56px,
+            #9c59d1 56px,
+            #9c59d1 84px,
+            #2c2c2c 84px,
+            #2c2c2c 112px
+        );
 
-    border-top: 1px solid rgba(255, 255, 255, 0.16);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    border:
+        12px groove #00ffff;
+
+    outline:
+        9px dotted hotpink;
+
+    line-height: 3;
 }
 
 nav a {
-    position: relative;
+    display: inline-block;
 
-    display: block;
+    margin: 8px;
+    padding: 12px 18px;
 
-    padding: 10px 17px;
+    color: white;
 
-    color: var(--cream);
+    background:
+        linear-gradient(
+            135deg,
+            #d60270,
+            #9b4f96,
+            #0038a8
+        );
+
+    border:
+        6px outset gold;
+
+    box-shadow:
+        6px 6px 0 black,
+        11px 11px 0 cyan;
 
     font-family:
-        "Baskerville",
-        Georgia,
-        serif;
+        Impact,
+        "Arial Black",
+        sans-serif;
 
-    font-size: 0.95rem;
-    letter-spacing: 0.06em;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
     text-decoration: none;
+    text-transform: uppercase;
+
+    transition:
+        transform 0.15s ease,
+        filter 0.15s ease;
 }
 
-nav a:not(:last-child)::after {
-    content: "•";
+nav a:hover {
+    color: black;
 
-    position: absolute;
-    right: -2px;
+    background:
+        linear-gradient(
+            90deg,
+            #ff218c,
+            #ffd800,
+            #21b1ff
+        );
 
-    color: var(--gold-light);
+    transform:
+        scale(1.18)
+        rotate(-4deg);
+
+    filter:
+        saturate(170%)
+        brightness(120%);
+
+    animation:
+        navigation-shudder 0.18s infinite alternate;
 }
 
-nav a:hover,
-nav a:focus {
-    color: #fff7d8;
-
-    text-decoration: underline;
-    text-underline-offset: 5px;
-}
-
-nav a:focus-visible {
-    outline: 2px solid var(--gold-light);
-    outline-offset: 2px;
-}
 
 /* -----------------------------
-   MAIN
+   MAIN PAGE AREA
    ----------------------------- */
 
 main {
-    width: min(var(--content-width), 92%);
+    width:
+        min(1100px, 92%);
 
-    margin: 42px auto;
+    margin:
+        115px auto 55px;
+
+    padding:
+        28px;
+
+    background:
+        repeating-linear-gradient(
+            45deg,
+            rgba(255, 255, 255, 0.95) 0,
+            rgba(255, 255, 255, 0.95) 25px,
+            rgba(255, 240, 250, 0.95) 25px,
+            rgba(255, 240, 250, 0.95) 50px
+        );
+
+    border:
+        18px ridge hotpink;
+
+    outline:
+        12px dashed cyan;
+
+    box-shadow:
+        0 0 0 20px yellow,
+        0 0 0 30px purple,
+        0 0 70px 35px black;
 }
+
+
+/* -----------------------------
+   CONTENT SECTIONS
+   ----------------------------- */
 
 section {
     position: relative;
 
-    margin-bottom: 30px;
-    padding: 38px 42px;
+    margin:
+        40px 0;
 
-    background:
-        linear-gradient(
-            145deg,
-            rgba(255, 250, 240, 0.98),
-            rgba(244, 236, 216, 0.98)
-        );
+    padding:
+        32px;
 
-    border: 1px solid var(--border);
+    border:
+        10px double black;
+
+    border-radius:
+        35px 5px 35px 5px;
 
     box-shadow:
-        0 5px 18px var(--shadow),
-        inset 0 0 40px rgba(177, 138, 69, 0.08);
+        15px 15px 0 hotpink,
+        23px 23px 0 cyan;
+
+    transform:
+        rotate(-0.35deg);
 }
 
 section::before {
-    content: "";
+    content:
+        "OFFICIAL";
 
-    position: absolute;
-    inset: 8px;
+    position:
+        absolute;
 
-    pointer-events: none;
+    top:
+        -22px;
 
-    border: 1px solid rgba(143, 118, 85, 0.5);
+    right:
+        -16px;
+
+    padding:
+        8px 15px;
+
+    color:
+        white;
+
+    background:
+        red;
+
+    border:
+        5px solid black;
+
+    font-family:
+        Impact,
+        sans-serif;
+
+    letter-spacing:
+        3px;
+
+    transform:
+        rotate(8deg);
 }
 
-section::after {
-    content: "❧";
 
-    position: absolute;
-    bottom: 10px;
-    right: 18px;
+/* Rainbow pride section */
 
-    color: var(--gold);
-
-    font-size: 1.4rem;
+section:nth-of-type(6n + 1) {
+    background:
+        linear-gradient(
+            to bottom,
+            #e40303,
+            #ff8c00,
+            #ffed00,
+            #008026,
+            #004dff,
+            #750787
+        );
 }
+
+
+/* Trans-inspired section */
+
+section:nth-of-type(6n + 2) {
+    background:
+        linear-gradient(
+            to bottom,
+            #5bcffa,
+            #f5abb9,
+            white,
+            #f5abb9,
+            #5bcffa
+        );
+}
+
+
+/* Bisexual-inspired section */
+
+section:nth-of-type(6n + 3) {
+    background:
+        linear-gradient(
+            to bottom,
+            #d60270 0%,
+            #d60270 40%,
+            #9b4f96 40%,
+            #9b4f96 60%,
+            #0038a8 60%,
+            #0038a8 100%
+        );
+}
+
+
+/* Pansexual-inspired section */
+
+section:nth-of-type(6n + 4) {
+    background:
+        linear-gradient(
+            to bottom,
+            #ff218c,
+            #ffd800,
+            #21b1ff
+        );
+}
+
+
+/* Nonbinary-inspired section */
+
+section:nth-of-type(6n + 5) {
+    background:
+        linear-gradient(
+            to bottom,
+            #fcf434 0%,
+            #fcf434 25%,
+            white 25%,
+            white 50%,
+            #9c59d1 50%,
+            #9c59d1 75%,
+            #2c2c2c 75%,
+            #2c2c2c 100%
+        );
+}
+
+
+/* Asexual-inspired section */
+
+section:nth-of-type(6n + 6) {
+    color:
+        white;
+
+    background:
+        linear-gradient(
+            to bottom,
+            black 0%,
+            black 25%,
+            #a3a3a3 25%,
+            #a3a3a3 50%,
+            white 50%,
+            white 75%,
+            #800080 75%,
+            #800080 100%
+        );
+}
+
+section:nth-of-type(6n + 6) p,
+section:nth-of-type(6n + 6) li {
+    color:
+        #200020;
+
+    background:
+        rgba(255, 255, 255, 0.88);
+
+    padding:
+        8px;
+}
+
 
 /* -----------------------------
    HEADINGS
    ----------------------------- */
 
 h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    padding-bottom: 12px;
+    padding:
+        15px;
 
-    color: var(--wine-dark);
+    color:
+        white;
+
+    background:
+        linear-gradient(
+            90deg,
+            red,
+            orange,
+            yellow,
+            green,
+            cyan,
+            blue,
+            purple,
+            hotpink
+        );
+
+    background-size:
+        300% 300%;
+
+    border:
+        8px outset gold;
 
     font-family:
-        "Snell Roundhand",
-        "Apple Chancery",
-        "URW Chancery L",
-        cursive;
+        Impact,
+        "Arial Black",
+        sans-serif;
 
     font-size:
-        clamp(2.3rem, 5vw, 4rem);
+        clamp(1.8rem, 4vw, 3rem);
 
-    font-weight: 500;
-    line-height: 1.1;
+    letter-spacing:
+        4px;
 
-    text-align: center;
+    text-align:
+        center;
 
-    border-bottom:
-        2px solid var(--gold);
-}
+    text-transform:
+        uppercase;
 
-h2::before,
-h2::after {
-    color: var(--gold);
+    text-shadow:
+        3px 3px 0 black,
+        6px 6px 0 hotpink;
 
-    font-family:
-        Georgia,
-        serif;
+    transform:
+        skew(-3deg);
 
-    font-size: 0.7em;
-}
-
-h2::before {
-    content: "❦ ";
-}
-
-h2::after {
-    content: " ❦";
+    animation:
+        heading-rainbow 5s linear infinite;
 }
 
 h3 {
-    margin-top: 24px;
-    margin-bottom: 10px;
+    display:
+        inline-block;
 
-    color: var(--green);
+    padding:
+        8px 14px;
+
+    color:
+        white;
+
+    background:
+        linear-gradient(
+            90deg,
+            #ff218c,
+            #ffd800,
+            #21b1ff
+        );
+
+    border:
+        5px double black;
 
     font-family:
-        "Baskerville",
-        Georgia,
-        serif;
+        "Arial Black",
+        sans-serif;
 
-    font-size: 1.35rem;
-    font-variant: small-caps;
-    letter-spacing: 0.08em;
+    font-size:
+        1.6rem;
+
+    letter-spacing:
+        2px;
+
+    text-transform:
+        uppercase;
+
+    text-shadow:
+        2px 2px 0 black;
 }
 
-h4 {
-    color: var(--wine);
-}
 
 /* -----------------------------
    TEXT
    ----------------------------- */
 
-p {
-    margin-top: 0;
-    margin-bottom: 18px;
+p,
+li,
+label {
+    font-size:
+        1.15rem;
+
+    line-height:
+        1.7;
 }
 
-p:first-of-type::first-letter {
-    float: left;
+p {
+    padding:
+        10px;
 
-    margin: 7px 8px 0 0;
+    background:
+        rgba(255, 255, 255, 0.86);
 
-    color: var(--wine);
+    border-left:
+        8px solid hotpink;
 
-    font-family:
-        "Snell Roundhand",
-        "Apple Chancery",
-        cursive;
-
-    font-size: 3.6rem;
-    line-height: 0.75;
+    border-right:
+        8px solid cyan;
 }
 
 strong {
-    color: var(--wine-dark);
+    color:
+        #6b006b;
+
+    background:
+        yellow;
+
+    padding:
+        3px 7px;
+
+    border:
+        3px dotted purple;
 }
 
-em {
-    color: var(--ink-soft);
-}
+ul {
+    padding:
+        25px 25px 25px 60px;
 
-small {
-    color: var(--ink-soft);
-}
+    background:
+        rgba(255, 255, 255, 0.9);
 
-ul,
-ol {
-    margin: 18px 0;
-    padding-left: 32px;
+    border:
+        8px dashed hotpink;
+
+    box-shadow:
+        inset 0 0 25px cyan;
 }
 
 li {
-    margin-bottom: 9px;
+    margin:
+        12px 0;
 }
 
 li::marker {
-    color: var(--wine);
+    content:
+        "🌈 ";
+
+    font-size:
+        1.4rem;
 }
+
 
 /* -----------------------------
-   LINKS
-   ----------------------------- */
-
-main a,
-footer a {
-    color: var(--wine);
-
-    text-decoration:
-        underline;
-
-    text-decoration-color:
-        var(--gold);
-
-    text-underline-offset: 3px;
-}
-
-main a:hover,
-footer a:hover {
-    color: var(--wine-dark);
-}
-
-/* -----------------------------
-   DIVIDERS
+   HORIZONTAL RULES
    ----------------------------- */
 
 hr {
-    height: 18px;
+    height:
+        18px;
 
-    margin: 30px 0;
+    margin:
+        35px 0;
 
-    border: none;
+    border:
+        none;
 
     background:
         linear-gradient(
-            to right,
-            transparent,
-            var(--gold),
-            transparent
+            90deg,
+            #e40303,
+            #ff8c00,
+            #ffed00,
+            #008026,
+            #004dff,
+            #750787
         );
 
-    position: relative;
+    box-shadow:
+        0 6px 0 black,
+        0 -6px 0 white;
 }
 
-hr::after {
-    content: "❦";
-
-    display: block;
-
-    width: 50px;
-    margin: -14px auto 0;
-
-    color: var(--wine);
-    background: var(--paper);
-
-    text-align: center;
-}
 
 /* -----------------------------
    MESSAGE BOARD
    ----------------------------- */
 
-#message-list {
-    display: grid;
-    gap: 22px;
-}
-
 #message-list article {
-    position: relative;
+    position:
+        relative;
 
-    padding: 28px 30px 24px;
+    margin:
+        35px 0;
+
+    padding:
+        28px;
 
     background:
         linear-gradient(
-            145deg,
-            #fffaf0,
-            #efe2c8
+            135deg,
+            white,
+            #ffd9eb,
+            #d8ffff,
+            #fff8a8
         );
 
-    border: 1px solid var(--border);
-    border-left: 8px solid var(--wine);
+    border:
+        12px ridge gold;
+
+    outline:
+        7px dotted hotpink;
 
     box-shadow:
-        0 4px 14px rgba(70, 48, 32, 0.12);
+        15px 15px 0 #5bcffa,
+        -10px -10px 0 #f5abb9;
+
+    transform:
+        rotate(-0.5deg);
+}
+
+#message-list article:nth-child(even) {
+    transform:
+        rotate(0.7deg);
 }
 
 #message-list article::before {
-    content: "Official Notice";
+    content:
+        "📢 OFFICIAL RAINBOW GOVERNMENT NOTICE 📢";
 
-    display: block;
+    display:
+        block;
 
-    margin-bottom: 12px;
+    margin-bottom:
+        20px;
 
-    color: var(--wine);
+    padding:
+        12px;
+
+    color:
+        white;
+
+    background:
+        linear-gradient(
+            90deg,
+            #e40303,
+            #ff8c00,
+            #ffed00,
+            #008026,
+            #004dff,
+            #750787
+        );
+
+    border:
+        6px dashed black;
 
     font-family:
-        "Snell Roundhand",
-        "Apple Chancery",
-        cursive;
+        Impact,
+        sans-serif;
 
-    font-size: 1.8rem;
+    font-size:
+        1.25rem;
+
+    letter-spacing:
+        4px;
+
+    text-align:
+        center;
+
+    animation:
+        notice-pulse 1.4s infinite alternate;
 }
 
-#message-list article h3 {
-    margin-top: 0;
-
-    color: var(--wine-dark);
-}
-
-#message-list article p {
-    margin-bottom: 10px;
-}
-
-#message-list article hr {
-    display: none;
-}
 
 /* -----------------------------
    FORMS
    ----------------------------- */
 
 form {
-    max-width: 760px;
+    padding:
+        32px;
+
+    color:
+        white;
+
+    background:
+        linear-gradient(
+            135deg,
+            #d60270,
+            #9b4f96,
+            #0038a8,
+            #750787
+        );
+
+    border:
+        15px groove lime;
+
+    outline:
+        10px dashed yellow;
+
+    box-shadow:
+        inset 0 0 45px cyan,
+        16px 16px 0 hotpink;
 }
 
-label {
-    display: inline-block;
-
-    margin-bottom: 6px;
-
-    color: var(--wine-dark);
-
-    font-family:
-        "Baskerville",
-        Georgia,
-        serif;
-
-    font-weight: 600;
-    letter-spacing: 0.03em;
+form p {
+    color:
+        #1f0028;
 }
 
 input,
-textarea,
-select {
-    width: 100%;
+textarea {
+    width:
+        100%;
 
-    padding: 12px 14px;
+    margin-top:
+        8px;
 
-    color: var(--ink);
-    background: #fffdf7;
+    padding:
+        15px;
 
-    border: 1px solid var(--border);
+    color:
+        #260030;
 
-    border-radius: 0;
+    background:
+        linear-gradient(
+            90deg,
+            #5bcffa,
+            #f5abb9,
+            white,
+            #f5abb9,
+            #5bcffa
+        );
 
-    font:
-        inherit;
+    border:
+        7px inset hotpink;
+
+    font-family:
+        "Comic Sans MS",
+        Arial,
+        sans-serif;
+
+    font-size:
+        1rem;
 
     box-shadow:
-        inset 0 1px 4px rgba(70, 48, 32, 0.08);
-}
-
-textarea {
-    resize: vertical;
-}
-
-input:hover,
-textarea:hover,
-select:hover {
-    border-color: var(--gold);
+        inset 5px 5px 0 white,
+        7px 7px 0 cyan;
 }
 
 input:focus,
-textarea:focus,
-select:focus {
-    border-color: var(--wine);
+textarea:focus {
+    background:
+        linear-gradient(
+            90deg,
+            #ff218c,
+            #ffd800,
+            #21b1ff
+        );
 
-    outline: 3px solid rgba(109, 38, 56, 0.12);
+    outline:
+        8px dotted purple;
+
+    animation:
+        input-wiggle 0.2s infinite alternate;
 }
+
 
 /* -----------------------------
    BUTTONS
    ----------------------------- */
 
 button {
-    display: inline-block;
+    padding:
+        20px 30px;
 
-    padding: 12px 24px;
+    color:
+        white;
 
-    color: var(--cream);
     background:
         linear-gradient(
-            to bottom,
-            #7b3345,
-            var(--wine-dark)
+            45deg,
+            red,
+            orange,
+            yellow,
+            green,
+            cyan,
+            blue,
+            purple,
+            hotpink
         );
 
-    border: 1px solid var(--gold);
-    border-radius: 0;
+    background-size:
+        300% 300%;
+
+    border:
+        10px outset gold;
+
+    border-radius:
+        50%;
 
     box-shadow:
-        inset 0 0 0 2px rgba(255, 255, 255, 0.08),
-        0 3px 8px rgba(60, 30, 34, 0.18);
+        10px 10px 0 black,
+        17px 17px 0 cyan;
 
     font-family:
-        "Baskerville",
-        Georgia,
-        serif;
+        Impact,
+        "Arial Black",
+        sans-serif;
 
-    font-size: 1rem;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    font-size:
+        1.3rem;
 
-    cursor: pointer;
+    letter-spacing:
+        3px;
+
+    text-transform:
+        uppercase;
+
+    text-shadow:
+        2px 2px 0 black;
+
+    cursor:
+        pointer;
+
+    animation:
+        button-rainbow 4s linear infinite,
+        button-breathe 1.2s infinite alternate;
 }
 
 button:hover {
-    background:
-        linear-gradient(
-            to bottom,
-            #8e4255,
-            #57202f
-        );
-}
+    color:
+        black;
 
-button:focus-visible {
-    outline: 3px solid rgba(177, 138, 69, 0.35);
-    outline-offset: 3px;
+    filter:
+        saturate(200%)
+        brightness(125%);
+
+    transform:
+        scale(1.22)
+        rotate(6deg);
 }
 
 button:active {
-    transform: translateY(1px);
+    border-style:
+        inset;
+
+    transform:
+        scale(0.9)
+        rotate(-5deg);
 }
+
 
 /* -----------------------------
    FORM RESPONSE
    ----------------------------- */
 
 #form-response {
-    margin-top: 20px;
-    padding: 16px 18px;
+    margin-top:
+        35px;
 
-    color: var(--wine-dark);
-    background: #f6ecd8;
+    padding:
+        22px;
 
-    border: 1px solid var(--gold);
-    border-left: 6px solid var(--wine);
+    color:
+        white;
+
+    background:
+        linear-gradient(
+            90deg,
+            #e40303,
+            #ff8c00,
+            #ffed00,
+            #008026,
+            #004dff,
+            #750787
+        );
+
+    border:
+        10px double black;
 
     font-family:
-        "Baskerville",
-        Georgia,
-        serif;
+        Impact,
+        sans-serif;
+
+    font-size:
+        1.35rem;
+
+    letter-spacing:
+        3px;
+
+    text-align:
+        center;
+
+    text-transform:
+        uppercase;
+
+    text-shadow:
+        2px 2px 0 black;
 }
 
-#form-response:empty {
-    display: none;
-}
 
 /* -----------------------------
-   TABLES
+   LINKS OUTSIDE NAVIGATION
    ----------------------------- */
 
-table {
-    width: 100%;
+main a {
+    color:
+        white;
 
-    border-collapse: collapse;
+    background:
+        #750787;
 
-    background: #fffdf8;
+    padding:
+        4px 8px;
+
+    border:
+        3px solid hotpink;
+
+    font-weight:
+        bold;
+
+    text-decoration:
+        underline wavy yellow;
 }
 
-th,
-td {
-    padding: 13px 15px;
+main a:hover {
+    color:
+        black;
 
-    text-align: left;
-
-    border: 1px solid var(--border);
+    background:
+        yellow;
 }
 
-th {
-    color: var(--cream);
-    background: var(--wine-dark);
-
-    font-family:
-        "Baskerville",
-        Georgia,
-        serif;
-
-    font-variant: small-caps;
-    letter-spacing: 0.05em;
-}
-
-tr:nth-child(even) {
-    background: #f0e4cd;
-}
 
 /* -----------------------------
    FOOTER
    ----------------------------- */
 
 footer {
-    margin-top: 60px;
-    padding: 38px 20px;
+    margin-top:
+        90px;
 
-    color: #e9deca;
+    padding:
+        55px 20px 40px;
+
+    color:
+        white;
+
     background:
         linear-gradient(
-            135deg,
-            #2b1d18,
-            #3f2b22
+            90deg,
+            black,
+            #613915,
+            #5bcffa,
+            #f5abb9,
+            white,
+            #f5abb9,
+            #5bcffa,
+            #e40303,
+            #ff8c00,
+            #ffed00,
+            #008026,
+            #004dff,
+            #750787
         );
 
-    border-top: 8px double var(--gold);
+    background-size:
+        300% 300%;
 
-    text-align: center;
-}
+    border-top:
+        20px ridge gold;
 
-footer hr {
-    display: none;
+    font-family:
+        "Times New Roman",
+        serif;
+
+    font-size:
+        1.1rem;
+
+    letter-spacing:
+        2px;
+
+    text-align:
+        center;
+
+    text-shadow:
+        2px 2px 0 black;
+
+    animation:
+        footer-rainbow 9s linear infinite;
 }
 
 footer p {
-    margin: 5px 0;
+    color:
+        white;
 
-    font-size: 0.9rem;
-    letter-spacing: 0.05em;
+    background:
+        rgba(0, 0, 0, 0.72);
+
+    border:
+        5px double white;
 }
 
 footer::after {
-    content: "❦ Government Seal Pending Approval ❦";
+    content:
+        "🌈 CERTIFIED BY THE MINISTRY OF EXCESSIVE GAY GOVERNMENT DESIGN 🌈";
 
-    display: block;
+    display:
+        block;
 
-    margin-top: 18px;
+    margin-top:
+        28px;
 
-    color: var(--gold-light);
+    padding:
+        17px;
+
+    color:
+        black;
+
+    background:
+        linear-gradient(
+            90deg,
+            #fcf434,
+            white,
+            #9c59d1,
+            #2c2c2c
+        );
+
+    border:
+        9px dashed hotpink;
 
     font-family:
-        "Snell Roundhand",
-        "Apple Chancery",
-        cursive;
+        Impact,
+        sans-serif;
 
-    font-size: 1.45rem;
+    letter-spacing:
+        3px;
+
+    animation:
+        warning-flash 1s infinite alternate;
 }
 
+
 /* -----------------------------
-   RESPONSIVE
+   ANIMATIONS
    ----------------------------- */
 
-@media (max-width: 760px) {
+@keyframes rainbow-background {
+    0% {
+        background-position:
+            0% 50%;
+    }
+
+    50% {
+        background-position:
+            100% 50%;
+    }
+
+    100% {
+        background-position:
+            0% 50%;
+    }
+}
+
+@keyframes parade-march {
+    from {
+        transform:
+            translateX(-12%);
+    }
+
+    to {
+        transform:
+            translateX(12%);
+    }
+}
+
+@keyframes warning-flash {
+    from {
+        filter:
+            brightness(100%);
+
+        transform:
+            scale(1);
+    }
+
+    to {
+        filter:
+            brightness(150%);
+
+        transform:
+            scale(1.05);
+    }
+}
+
+@keyframes navigation-shudder {
+    from {
+        transform:
+            scale(1.16)
+            rotate(-4deg);
+    }
+
+    to {
+        transform:
+            scale(1.22)
+            rotate(4deg);
+    }
+}
+
+@keyframes heading-rainbow {
+    0% {
+        background-position:
+            0% 50%;
+    }
+
+    100% {
+        background-position:
+            100% 50%;
+    }
+}
+
+@keyframes notice-pulse {
+    from {
+        filter:
+            saturate(100%)
+            brightness(100%);
+    }
+
+    to {
+        filter:
+            saturate(190%)
+            brightness(130%);
+    }
+}
+
+@keyframes input-wiggle {
+    from {
+        transform:
+            translateX(-3px);
+    }
+
+    to {
+        transform:
+            translateX(3px);
+    }
+}
+
+@keyframes button-rainbow {
+    0% {
+        background-position:
+            0% 50%;
+    }
+
+    100% {
+        background-position:
+            100% 50%;
+    }
+}
+
+@keyframes button-breathe {
+    from {
+        transform:
+            scale(1)
+            rotate(-1deg);
+    }
+
+    to {
+        transform:
+            scale(1.08)
+            rotate(1deg);
+    }
+}
+
+@keyframes footer-rainbow {
+    0% {
+        background-position:
+            0% 50%;
+    }
+
+    100% {
+        background-position:
+            100% 50%;
+    }
+}
+
+
+/* -----------------------------
+   MOBILE VERSION
+   ----------------------------- */
+
+@media (max-width: 700px) {
     header {
-        padding-top: 34px;
+        box-shadow:
+            0 8px 0 #5bcffa,
+            0 16px 0 #f5abb9,
+            0 24px 0 white,
+            0 32px 0 #f5abb9,
+            0 40px 0 #5bcffa;
     }
 
-    header h1 {
-        font-size: 2.7rem;
+    header::before {
+        font-size:
+            1.3rem;
     }
 
-    nav {
-        display: block;
+    h1 {
+        font-size:
+            2.3rem;
+
+        text-shadow:
+            2px 2px 0 black,
+            4px 4px 0 red,
+            6px 6px 0 orange,
+            8px 8px 0 yellow,
+            10px 10px 0 blue;
     }
 
     nav a {
-        text-align: center;
+        display:
+            block;
 
-        border-bottom:
-            1px solid rgba(255, 255, 255, 0.12);
-    }
+        width:
+            90%;
 
-    nav a::after {
-        display: none;
+        margin:
+            18px auto;
     }
 
     main {
-        width: 94%;
-        margin: 26px auto;
+        width:
+            94%;
+
+        margin-top:
+            85px;
+
+        padding:
+            13px;
+
+        border-width:
+            10px;
+
+        outline-width:
+            6px;
+
+        box-shadow:
+            0 0 0 10px yellow,
+            0 0 0 17px purple;
     }
 
     section {
-        padding: 28px 24px;
+        padding:
+            20px;
+
+        box-shadow:
+            8px 8px 0 hotpink,
+            14px 14px 0 cyan;
+    }
+
+    section::before {
+        position:
+            static;
+
+        display:
+            inline-block;
+
+        margin-bottom:
+            10px;
     }
 
     h2 {
-        font-size: 2.4rem;
+        font-size:
+            1.7rem;
     }
 
     button {
-        width: 100%;
-    }
+        width:
+            100%;
 
-    table {
-        display: block;
-        overflow-x: auto;
+        border-radius:
+            8px;
     }
 }
 
+
 /* -----------------------------
-   PRINT
+   REDUCED MOTION
+   The government grudgingly permits calm.
    ----------------------------- */
 
-@media print {
-    body {
-        color: black;
-        background: white;
-    }
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation:
+            none !important;
 
-    header,
-    footer,
-    nav {
-        color: black;
-        background: white;
-
-        border-color: black;
-        box-shadow: none;
-    }
-
-    nav {
-        display: none;
-    }
-
-    section,
-    #message-list article {
-        box-shadow: none;
+        scroll-behavior:
+            auto !important;
     }
 }
