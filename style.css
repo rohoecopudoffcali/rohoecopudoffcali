@@ -1,7 +1,13 @@
 /* =========================================================
-   OFFICIAL GOVERNMENT STYLING
-   Approved by nobody.
+   THE KAKISTOCRACY OF ROHOECOPUDOFFCALI
+   OFFICIAL EXTREMELY GAY GOVERNMENT STYLESHEET
+   Approved by the Ministry of Excessive Color
    ========================================================= */
+
+
+/* -----------------------------
+   BASIC PAGE SETUP
+   ----------------------------- */
 
 * {
     box-sizing: border-box;
@@ -15,151 +21,219 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: "Comic Sans MS", "Papyrus", cursive;
+    color: #190020;
 
-    color: #2b0033;
+    font-family:
+        "Comic Sans MS",
+        "Trebuchet MS",
+        Arial,
+        sans-serif;
 
     background:
-        repeating-linear-gradient(
-            45deg,
-            rgba(255, 0, 255, 0.18) 0,
-            rgba(255, 0, 255, 0.18) 20px,
-            rgba(0, 255, 255, 0.18) 20px,
-            rgba(0, 255, 255, 0.18) 40px
-        ),
         linear-gradient(
-            120deg,
-            #ff77dd,
-            #ffff66,
-            #66ffff,
-            #bb77ff,
-            #ff9966
+            135deg,
+            rgba(228, 3, 3, 0.85),
+            rgba(255, 140, 0, 0.85),
+            rgba(255, 237, 0, 0.85),
+            rgba(0, 128, 38, 0.85),
+            rgba(0, 77, 255, 0.85),
+            rgba(117, 7, 135, 0.85)
         );
 
-    background-size: 200% 200%;
-    animation: national-background-emergency 8s infinite alternate;
+    background-size: 400% 400%;
+
+    animation:
+        rainbow-background 12s ease infinite;
 }
 
-/* =========================================================
+
+/* -----------------------------
    HEADER
-   ========================================================= */
+   ----------------------------- */
 
 header {
     position: relative;
 
-    padding: 35px 20px;
+    padding: 35px 20px 45px;
 
     text-align: center;
 
-    background:
-        radial-gradient(circle, #fff700 0%, #ff8c00 30%, #ff00c8 65%, #400080 100%);
+    color: white;
 
-    border-top: 18px ridge gold;
-    border-bottom: 18px ridge gold;
+    background:
+        linear-gradient(
+            to bottom,
+            #e40303 0%,
+            #e40303 16.6%,
+            #ff8c00 16.6%,
+            #ff8c00 33.2%,
+            #ffed00 33.2%,
+            #ffed00 49.8%,
+            #008026 49.8%,
+            #008026 66.4%,
+            #004dff 66.4%,
+            #004dff 83%,
+            #750787 83%,
+            #750787 100%
+        );
+
+    border-top: 16px ridge gold;
+    border-bottom: 16px ridge gold;
 
     box-shadow:
-        0 12px 0 red,
-        0 24px 0 orange,
-        0 36px 0 yellow,
-        0 48px 0 lime,
-        0 60px 0 cyan,
-        0 72px 0 blue,
-        0 84px 0 violet;
+        0 10px 0 #5bcffa,
+        0 20px 0 #f5abb9,
+        0 30px 0 white,
+        0 40px 0 #f5abb9,
+        0 50px 0 #5bcffa;
 
-    animation: governmental-pulse 2s infinite alternate;
+    overflow: hidden;
 }
 
 header::before {
-    content: "🪨 🐴 📎 💧 ⛺ 📚 🪨 🐴 📎 💧 ⛺ 📚";
+    content:
+        "🌈 🪨 🐴 📎 💧 ⛺ 📚 🐸 🌈 🪨 🐴 📎 💧 ⛺ 📚 🐸 🌈";
+
     display: block;
 
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 10px;
 
-    animation: ceremonial-wobble 1.8s infinite alternate;
+    white-space: nowrap;
+
+    animation:
+        parade-march 8s linear infinite;
 }
 
 header::after {
-    content: "⚠ OFFICIAL GOVERNMENT INTERNET ZONE ⚠";
-    display: block;
+    content:
+        "⚠ OFFICIAL GOVERNMENT PRIDE ZONE ⚠";
+
+    display: inline-block;
 
     margin-top: 25px;
-    padding: 10px;
+    padding: 12px 20px;
 
-    color: white;
+    color: yellow;
+
     background: black;
 
-    border: 6px dashed red;
+    border:
+        7px dashed hotpink;
 
-    font-family: Impact, sans-serif;
-    font-size: 1.1rem;
+    font-family:
+        Impact,
+        "Arial Black",
+        sans-serif;
+
+    font-size: 1.2rem;
     letter-spacing: 4px;
 
-    animation: warning-flash 0.8s infinite;
+    animation:
+        warning-flash 1s infinite alternate;
 }
+
+
+/* -----------------------------
+   MAIN TITLE
+   ----------------------------- */
 
 h1 {
     margin: 0;
 
     color: white;
 
-    font-family: Impact, "Arial Black", sans-serif;
-    font-size: clamp(2.4rem, 7vw, 6rem);
-    line-height: 1;
-    letter-spacing: 5px;
+    font-family:
+        Impact,
+        "Arial Black",
+        sans-serif;
+
+    font-size:
+        clamp(2.5rem, 7vw, 6rem);
+
+    line-height: 1.05;
+
+    letter-spacing: 4px;
     text-transform: uppercase;
 
     text-shadow:
-        4px 4px 0 red,
-        8px 8px 0 orange,
-        12px 12px 0 yellow,
-        16px 16px 0 green,
-        20px 20px 0 blue,
-        24px 24px 0 purple;
+        4px 4px 0 #000000,
+        8px 8px 0 #e40303,
+        12px 12px 0 #ff8c00,
+        16px 16px 0 #ffed00,
+        20px 20px 0 #008026,
+        24px 24px 0 #004dff,
+        28px 28px 0 #750787;
 
-    transform: rotate(-1deg);
+    transform:
+        rotate(-1deg);
 }
 
 header p {
     display: inline-block;
 
-    margin-top: 35px;
-    padding: 12px 25px;
+    margin-top: 45px;
+    padding: 12px 26px;
 
-    color: #ffff00;
-    background: #000000;
+    color: white;
 
-    border: 8px double white;
-    border-radius: 50%;
+    background:
+        linear-gradient(
+            90deg,
+            #5bcffa,
+            #f5abb9,
+            white,
+            #f5abb9,
+            #5bcffa
+        );
 
-    font-size: 1.4rem;
+    border:
+        8px double black;
+
+    border-radius:
+        50%;
+
+    font-weight: bold;
+    font-size: 1.3rem;
     letter-spacing: 3px;
     text-transform: uppercase;
 
-    transform: rotate(2deg);
+    text-shadow:
+        2px 2px 0 black;
+
+    transform:
+        rotate(2deg);
 }
 
-/* =========================================================
+
+/* -----------------------------
    NAVIGATION
-   ========================================================= */
+   ----------------------------- */
 
 nav {
-    margin: 25px auto 0;
+    margin: 30px auto 0;
     padding: 20px;
 
     background:
         repeating-linear-gradient(
             90deg,
-            #ff0000,
-            #ff0000 20px,
-            #ffff00 20px,
-            #ffff00 40px
+            #fcf434 0,
+            #fcf434 28px,
+            #ffffff 28px,
+            #ffffff 56px,
+            #9c59d1 56px,
+            #9c59d1 84px,
+            #2c2c2c 84px,
+            #2c2c2c 112px
         );
 
-    border: 10px groove #00ffff;
-    outline: 8px dotted #ff00ff;
+    border:
+        12px groove #00ffff;
+
+    outline:
+        9px dotted hotpink;
 
     line-height: 3;
 }
@@ -167,573 +241,1187 @@ nav {
 nav a {
     display: inline-block;
 
-    margin: 7px;
-    padding: 10px 16px;
+    margin: 8px;
+    padding: 12px 18px;
 
     color: white;
-    background: linear-gradient(#8a00ff, #25004c);
 
-    border: 5px outset gold;
-    border-radius: 4px;
+    background:
+        linear-gradient(
+            135deg,
+            #d60270,
+            #9b4f96,
+            #0038a8
+        );
+
+    border:
+        6px outset gold;
 
     box-shadow:
-        5px 5px 0 black,
-        9px 9px 0 hotpink;
+        6px 6px 0 black,
+        11px 11px 0 cyan;
 
-    font-family: Impact, sans-serif;
+    font-family:
+        Impact,
+        "Arial Black",
+        sans-serif;
+
     font-size: 1.1rem;
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
 
     transition:
-        transform 0.15s,
-        background 0.15s;
+        transform 0.15s ease,
+        filter 0.15s ease;
 }
 
 nav a:hover {
     color: black;
-    background: lime;
-
-    transform:
-        scale(1.25)
-        rotate(-4deg);
-
-    animation: navigation-panic 0.2s infinite alternate;
-}
-
-/* =========================================================
-   MAIN CONTENT
-   ========================================================= */
-
-main {
-    width: min(1100px, 92%);
-
-    margin: 125px auto 40px;
-    padding: 25px;
 
     background:
-        repeating-radial-gradient(
-            circle,
-            rgba(255, 255, 255, 0.95) 0,
-            rgba(255, 255, 255, 0.95) 15px,
-            rgba(255, 240, 120, 0.95) 16px,
-            rgba(255, 240, 120, 0.95) 30px
+        linear-gradient(
+            90deg,
+            #ff218c,
+            #ffd800,
+            #21b1ff
         );
 
-    border: 18px ridge #ff00cc;
-    outline: 12px dashed cyan;
+    transform:
+        scale(1.18)
+        rotate(-4deg);
+
+    filter:
+        saturate(170%)
+        brightness(120%);
+
+    animation:
+        navigation-shudder 0.18s infinite alternate;
+}
+
+
+/* -----------------------------
+   MAIN PAGE AREA
+   ----------------------------- */
+
+main {
+    width:
+        min(1100px, 92%);
+
+    margin:
+        115px auto 55px;
+
+    padding:
+        28px;
+
+    background:
+        repeating-linear-gradient(
+            45deg,
+            rgba(255, 255, 255, 0.95) 0,
+            rgba(255, 255, 255, 0.95) 25px,
+            rgba(255, 240, 250, 0.95) 25px,
+            rgba(255, 240, 250, 0.95) 50px
+        );
+
+    border:
+        18px ridge hotpink;
+
+    outline:
+        12px dashed cyan;
 
     box-shadow:
         0 0 0 20px yellow,
-        0 0 0 30px red,
-        0 0 60px 35px purple;
+        0 0 0 30px purple,
+        0 0 70px 35px black;
 }
+
+
+/* -----------------------------
+   CONTENT SECTIONS
+   ----------------------------- */
 
 section {
     position: relative;
 
-    margin: 35px 0;
-    padding: 30px;
+    margin:
+        40px 0;
 
-    background: rgba(255, 255, 255, 0.92);
+    padding:
+        32px;
 
-    border: 10px double #6a00ff;
-    border-radius: 35px 5px 35px 5px;
+    border:
+        10px double black;
+
+    border-radius:
+        35px 5px 35px 5px;
 
     box-shadow:
-        inset 0 0 30px hotpink,
-        12px 12px 0 orange,
-        20px 20px 0 cyan;
+        15px 15px 0 hotpink,
+        23px 23px 0 cyan;
 
-    transform: rotate(-0.4deg);
-}
-
-section:nth-of-type(even) {
-    transform: rotate(0.5deg);
-
-    background:
-        linear-gradient(
-            135deg,
-            rgba(255, 255, 255, 0.95),
-            rgba(153, 255, 240, 0.95),
-            rgba(255, 180, 240, 0.95)
-        );
+    transform:
+        rotate(-0.35deg);
 }
 
 section::before {
-    content: "OFFICIAL";
-    position: absolute;
-    top: -18px;
-    right: -15px;
+    content:
+        "OFFICIAL";
 
-    padding: 7px 13px;
+    position:
+        absolute;
 
-    color: white;
-    background: red;
+    top:
+        -22px;
 
-    border: 5px solid black;
+    right:
+        -16px;
 
-    font-family: Impact, sans-serif;
-    letter-spacing: 3px;
+    padding:
+        8px 15px;
 
-    transform: rotate(8deg);
+    color:
+        white;
+
+    background:
+        red;
+
+    border:
+        5px solid black;
+
+    font-family:
+        Impact,
+        sans-serif;
+
+    letter-spacing:
+        3px;
+
+    transform:
+        rotate(8deg);
 }
 
-h2 {
-    padding: 12px;
 
-    color: #fff;
+/* Rainbow pride section */
+
+section:nth-of-type(6n + 1) {
+    background:
+        linear-gradient(
+            to bottom,
+            #e40303,
+            #ff8c00,
+            #ffed00,
+            #008026,
+            #004dff,
+            #750787
+        );
+}
+
+
+/* Trans-inspired section */
+
+section:nth-of-type(6n + 2) {
+    background:
+        linear-gradient(
+            to bottom,
+            #5bcffa,
+            #f5abb9,
+            white,
+            #f5abb9,
+            #5bcffa
+        );
+}
+
+
+/* Bisexual-inspired section */
+
+section:nth-of-type(6n + 3) {
+    background:
+        linear-gradient(
+            to bottom,
+            #d60270 0%,
+            #d60270 40%,
+            #9b4f96 40%,
+            #9b4f96 60%,
+            #0038a8 60%,
+            #0038a8 100%
+        );
+}
+
+
+/* Pansexual-inspired section */
+
+section:nth-of-type(6n + 4) {
+    background:
+        linear-gradient(
+            to bottom,
+            #ff218c,
+            #ffd800,
+            #21b1ff
+        );
+}
+
+
+/* Nonbinary-inspired section */
+
+section:nth-of-type(6n + 5) {
+    background:
+        linear-gradient(
+            to bottom,
+            #fcf434 0%,
+            #fcf434 25%,
+            white 25%,
+            white 50%,
+            #9c59d1 50%,
+            #9c59d1 75%,
+            #2c2c2c 75%,
+            #2c2c2c 100%
+        );
+}
+
+
+/* Asexual-inspired section */
+
+section:nth-of-type(6n + 6) {
+    color:
+        white;
+
+    background:
+        linear-gradient(
+            to bottom,
+            black 0%,
+            black 25%,
+            #a3a3a3 25%,
+            #a3a3a3 50%,
+            white 50%,
+            white 75%,
+            #800080 75%,
+            #800080 100%
+        );
+}
+
+section:nth-of-type(6n + 6) p,
+section:nth-of-type(6n + 6) li {
+    color:
+        #200020;
+
+    background:
+        rgba(255, 255, 255, 0.88);
+
+    padding:
+        8px;
+}
+
+
+/* -----------------------------
+   HEADINGS
+   ----------------------------- */
+
+h2 {
+    padding:
+        15px;
+
+    color:
+        white;
+
     background:
         linear-gradient(
             90deg,
             red,
             orange,
-            gold,
+            yellow,
             green,
+            cyan,
             blue,
-            purple
+            purple,
+            hotpink
         );
 
-    border: 7px outset gold;
+    background-size:
+        300% 300%;
 
-    font-family: Impact, "Arial Black", sans-serif;
-    font-size: clamp(1.8rem, 4vw, 3rem);
-    letter-spacing: 4px;
-    text-align: center;
-    text-transform: uppercase;
+    border:
+        8px outset gold;
+
+    font-family:
+        Impact,
+        "Arial Black",
+        sans-serif;
+
+    font-size:
+        clamp(1.8rem, 4vw, 3rem);
+
+    letter-spacing:
+        4px;
+
+    text-align:
+        center;
+
+    text-transform:
+        uppercase;
 
     text-shadow:
         3px 3px 0 black,
         6px 6px 0 hotpink;
 
-    transform: skew(-3deg);
+    transform:
+        skew(-3deg);
+
+    animation:
+        heading-rainbow 5s linear infinite;
 }
 
 h3 {
-    color: darkblue;
+    display:
+        inline-block;
 
-    font-family: "Arial Black", sans-serif;
-    font-size: 1.7rem;
-    text-decoration: underline wavy red 4px;
-    text-transform: uppercase;
+    padding:
+        8px 14px;
+
+    color:
+        white;
+
+    background:
+        linear-gradient(
+            90deg,
+            #ff218c,
+            #ffd800,
+            #21b1ff
+        );
+
+    border:
+        5px double black;
+
+    font-family:
+        "Arial Black",
+        sans-serif;
+
+    font-size:
+        1.6rem;
+
+    letter-spacing:
+        2px;
+
+    text-transform:
+        uppercase;
+
+    text-shadow:
+        2px 2px 0 black;
 }
+
+
+/* -----------------------------
+   TEXT
+   ----------------------------- */
 
 p,
 li,
 label {
-    font-size: 1.15rem;
-    line-height: 1.7;
+    font-size:
+        1.15rem;
+
+    line-height:
+        1.7;
+}
+
+p {
+    padding:
+        10px;
+
+    background:
+        rgba(255, 255, 255, 0.86);
+
+    border-left:
+        8px solid hotpink;
+
+    border-right:
+        8px solid cyan;
 }
 
 strong {
-    color: red;
-    background: yellow;
+    color:
+        #6b006b;
 
-    padding: 2px 6px;
+    background:
+        yellow;
 
-    border: 2px dotted purple;
+    padding:
+        3px 7px;
+
+    border:
+        3px dotted purple;
 }
 
 ul {
-    padding: 25px 25px 25px 55px;
+    padding:
+        25px 25px 25px 60px;
 
-    background: #eeffff;
+    background:
+        rgba(255, 255, 255, 0.9);
 
-    border: 8px dashed hotpink;
+    border:
+        8px dashed hotpink;
+
+    box-shadow:
+        inset 0 0 25px cyan;
 }
 
 li {
-    margin: 12px 0;
+    margin:
+        12px 0;
 }
 
 li::marker {
-    content: "🪨 ";
-    font-size: 1.5rem;
+    content:
+        "🌈 ";
+
+    font-size:
+        1.4rem;
 }
+
+
+/* -----------------------------
+   HORIZONTAL RULES
+   ----------------------------- */
 
 hr {
-    height: 15px;
+    height:
+        18px;
 
-    margin: 30px 0;
+    margin:
+        35px 0;
 
-    border: none;
-
-    background:
-        repeating-linear-gradient(
-            90deg,
-            red 0,
-            red 25px,
-            yellow 25px,
-            yellow 50px,
-            blue 50px,
-            blue 75px
-        );
-
-    box-shadow:
-        0 5px 0 black,
-        0 -5px 0 lime;
-}
-
-/* =========================================================
-   MESSAGE BOARD
-   ========================================================= */
-
-#message-list article {
-    margin: 30px 0;
-    padding: 25px;
+    border:
+        none;
 
     background:
         linear-gradient(
-            140deg,
-            #fff,
-            #ffffa8,
-            #ffb8ec
+            90deg,
+            #e40303,
+            #ff8c00,
+            #ffed00,
+            #008026,
+            #004dff,
+            #750787
         );
 
-    border: 12px ridge gold;
-    outline: 6px dotted red;
+    box-shadow:
+        0 6px 0 black,
+        0 -6px 0 white;
+}
+
+
+/* -----------------------------
+   MESSAGE BOARD
+   ----------------------------- */
+
+#message-list article {
+    position:
+        relative;
+
+    margin:
+        35px 0;
+
+    padding:
+        28px;
+
+    background:
+        linear-gradient(
+            135deg,
+            white,
+            #ffd9eb,
+            #d8ffff,
+            #fff8a8
+        );
+
+    border:
+        12px ridge gold;
+
+    outline:
+        7px dotted hotpink;
 
     box-shadow:
-        15px 15px 0 #00d9ff,
-        -10px -10px 0 #8d00ff;
+        15px 15px 0 #5bcffa,
+        -10px -10px 0 #f5abb9;
 
-    transform: rotate(-0.5deg);
+    transform:
+        rotate(-0.5deg);
 }
 
 #message-list article:nth-child(even) {
-    transform: rotate(0.8deg);
+    transform:
+        rotate(0.7deg);
 }
 
 #message-list article::before {
-    content: "📢 GOVERNMENT NOTICE 📢";
-    display: block;
+    content:
+        "📢 OFFICIAL RAINBOW GOVERNMENT NOTICE 📢";
 
-    margin-bottom: 20px;
-    padding: 8px;
+    display:
+        block;
 
-    color: yellow;
-    background: black;
+    margin-bottom:
+        20px;
 
-    border: 5px dashed red;
+    padding:
+        12px;
 
-    font-family: Impact, sans-serif;
-    font-size: 1.3rem;
-    letter-spacing: 4px;
-    text-align: center;
+    color:
+        white;
 
-    animation: warning-flash 1.2s infinite;
-}
-
-/* =========================================================
-   FORMS
-   ========================================================= */
-
-form {
-    padding: 30px;
-
-    color: white;
     background:
-        repeating-linear-gradient(
-            -45deg,
-            #31005e,
-            #31005e 25px,
-            #6700bd 25px,
-            #6700bd 50px
+        linear-gradient(
+            90deg,
+            #e40303,
+            #ff8c00,
+            #ffed00,
+            #008026,
+            #004dff,
+            #750787
         );
 
-    border: 15px groove lime;
-    outline: 10px dashed yellow;
+    border:
+        6px dashed black;
+
+    font-family:
+        Impact,
+        sans-serif;
+
+    font-size:
+        1.25rem;
+
+    letter-spacing:
+        4px;
+
+    text-align:
+        center;
+
+    animation:
+        notice-pulse 1.4s infinite alternate;
+}
+
+
+/* -----------------------------
+   FORMS
+   ----------------------------- */
+
+form {
+    padding:
+        32px;
+
+    color:
+        white;
+
+    background:
+        linear-gradient(
+            135deg,
+            #d60270,
+            #9b4f96,
+            #0038a8,
+            #750787
+        );
+
+    border:
+        15px groove lime;
+
+    outline:
+        10px dashed yellow;
 
     box-shadow:
         inset 0 0 45px cyan,
-        15px 15px 0 hotpink;
+        16px 16px 0 hotpink;
+}
+
+form p {
+    color:
+        #1f0028;
 }
 
 input,
 textarea {
-    width: 100%;
+    width:
+        100%;
 
-    margin-top: 8px;
-    padding: 14px;
+    margin-top:
+        8px;
 
-    color: #2a003d;
-    background: #ffffb8;
+    padding:
+        15px;
 
-    border: 7px inset hotpink;
-    border-radius: 0;
+    color:
+        #260030;
 
-    font-family: "Comic Sans MS", cursive;
-    font-size: 1rem;
+    background:
+        linear-gradient(
+            90deg,
+            #5bcffa,
+            #f5abb9,
+            white,
+            #f5abb9,
+            #5bcffa
+        );
+
+    border:
+        7px inset hotpink;
+
+    font-family:
+        "Comic Sans MS",
+        Arial,
+        sans-serif;
+
+    font-size:
+        1rem;
 
     box-shadow:
-        inset 4px 4px 0 orange,
-        6px 6px 0 cyan;
+        inset 5px 5px 0 white,
+        7px 7px 0 cyan;
 }
 
 input:focus,
 textarea:focus {
-    background: lime;
-    outline: 8px dotted red;
+    background:
+        linear-gradient(
+            90deg,
+            #ff218c,
+            #ffd800,
+            #21b1ff
+        );
 
-    animation: input-emergency 0.25s infinite alternate;
+    outline:
+        8px dotted purple;
+
+    animation:
+        input-wiggle 0.2s infinite alternate;
 }
 
-button {
-    padding: 18px 28px;
 
-    color: white;
+/* -----------------------------
+   BUTTONS
+   ----------------------------- */
+
+button {
+    padding:
+        20px 30px;
+
+    color:
+        white;
+
     background:
         linear-gradient(
             45deg,
             red,
             orange,
-            magenta,
-            purple
+            yellow,
+            green,
+            cyan,
+            blue,
+            purple,
+            hotpink
         );
 
-    border: 10px outset gold;
-    border-radius: 50%;
+    background-size:
+        300% 300%;
+
+    border:
+        10px outset gold;
+
+    border-radius:
+        50%;
 
     box-shadow:
         10px 10px 0 black,
-        16px 16px 0 cyan;
+        17px 17px 0 cyan;
 
-    font-family: Impact, sans-serif;
-    font-size: 1.3rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+    font-family:
+        Impact,
+        "Arial Black",
+        sans-serif;
 
-    cursor: pointer;
+    font-size:
+        1.3rem;
 
-    animation: button-breathe 1.2s infinite alternate;
+    letter-spacing:
+        3px;
+
+    text-transform:
+        uppercase;
+
+    text-shadow:
+        2px 2px 0 black;
+
+    cursor:
+        pointer;
+
+    animation:
+        button-rainbow 4s linear infinite,
+        button-breathe 1.2s infinite alternate;
 }
 
 button:hover {
-    color: black;
-    background: lime;
+    color:
+        black;
+
+    filter:
+        saturate(200%)
+        brightness(125%);
 
     transform:
-        scale(1.25)
-        rotate(7deg);
+        scale(1.22)
+        rotate(6deg);
 }
 
 button:active {
-    border-style: inset;
+    border-style:
+        inset;
 
     transform:
         scale(0.9)
         rotate(-5deg);
 }
 
+
+/* -----------------------------
+   FORM RESPONSE
+   ----------------------------- */
+
 #form-response {
-    margin-top: 35px;
-    padding: 20px;
+    margin-top:
+        35px;
 
-    color: white;
-    background: black;
+    padding:
+        22px;
 
-    border: 10px double red;
+    color:
+        white;
 
-    font-family: Impact, sans-serif;
-    font-size: 1.4rem;
-    letter-spacing: 3px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-/* =========================================================
-   FOOTER
-   ========================================================= */
-
-footer {
-    margin-top: 80px;
-    padding: 45px 20px;
-
-    color: white;
     background:
-        repeating-linear-gradient(
+        linear-gradient(
             90deg,
-            #000 0,
-            #000 40px,
-            #4c006e 40px,
-            #4c006e 80px
+            #e40303,
+            #ff8c00,
+            #ffed00,
+            #008026,
+            #004dff,
+            #750787
         );
 
-    border-top: 20px ridge gold;
+    border:
+        10px double black;
 
-    font-family: "Times New Roman", serif;
-    font-size: 1.1rem;
-    letter-spacing: 2px;
-    text-align: center;
+    font-family:
+        Impact,
+        sans-serif;
 
-    box-shadow:
-        inset 0 20px 0 red,
-        inset 0 35px 0 orange,
-        inset 0 50px 0 yellow;
+    font-size:
+        1.35rem;
+
+    letter-spacing:
+        3px;
+
+    text-align:
+        center;
+
+    text-transform:
+        uppercase;
+
+    text-shadow:
+        2px 2px 0 black;
+}
+
+
+/* -----------------------------
+   LINKS OUTSIDE NAVIGATION
+   ----------------------------- */
+
+main a {
+    color:
+        white;
+
+    background:
+        #750787;
+
+    padding:
+        4px 8px;
+
+    border:
+        3px solid hotpink;
+
+    font-weight:
+        bold;
+
+    text-decoration:
+        underline wavy yellow;
+}
+
+main a:hover {
+    color:
+        black;
+
+    background:
+        yellow;
+}
+
+
+/* -----------------------------
+   FOOTER
+   ----------------------------- */
+
+footer {
+    margin-top:
+        90px;
+
+    padding:
+        55px 20px 40px;
+
+    color:
+        white;
+
+    background:
+        linear-gradient(
+            90deg,
+            black,
+            #613915,
+            #5bcffa,
+            #f5abb9,
+            white,
+            #f5abb9,
+            #5bcffa,
+            #e40303,
+            #ff8c00,
+            #ffed00,
+            #008026,
+            #004dff,
+            #750787
+        );
+
+    background-size:
+        300% 300%;
+
+    border-top:
+        20px ridge gold;
+
+    font-family:
+        "Times New Roman",
+        serif;
+
+    font-size:
+        1.1rem;
+
+    letter-spacing:
+        2px;
+
+    text-align:
+        center;
+
+    text-shadow:
+        2px 2px 0 black;
+
+    animation:
+        footer-rainbow 9s linear infinite;
+}
+
+footer p {
+    color:
+        white;
+
+    background:
+        rgba(0, 0, 0, 0.72);
+
+    border:
+        5px double white;
 }
 
 footer::after {
-    content: "🪨 CERTIFIED BY THE BUREAU OF WEBSITE CERTIFICATION CERTIFICATION 🪨";
-    display: block;
+    content:
+        "🌈 CERTIFIED BY THE MINISTRY OF EXCESSIVE GAY GOVERNMENT DESIGN 🌈";
 
-    margin-top: 25px;
-    padding: 15px;
+    display:
+        block;
 
-    color: black;
-    background: yellow;
+    margin-top:
+        28px;
 
-    border: 8px dashed red;
+    padding:
+        17px;
 
-    font-family: Impact, sans-serif;
-    letter-spacing: 3px;
+    color:
+        black;
 
-    animation: warning-flash 1s infinite;
+    background:
+        linear-gradient(
+            90deg,
+            #fcf434,
+            white,
+            #9c59d1,
+            #2c2c2c
+        );
+
+    border:
+        9px dashed hotpink;
+
+    font-family:
+        Impact,
+        sans-serif;
+
+    letter-spacing:
+        3px;
+
+    animation:
+        warning-flash 1s infinite alternate;
 }
 
-/* =========================================================
-   ANIMATIONS OF NATIONAL IMPORTANCE
-   ========================================================= */
 
-@keyframes national-background-emergency {
+/* -----------------------------
+   ANIMATIONS
+   ----------------------------- */
+
+@keyframes rainbow-background {
+    0% {
+        background-position:
+            0% 50%;
+    }
+
+    50% {
+        background-position:
+            100% 50%;
+    }
+
+    100% {
+        background-position:
+            0% 50%;
+    }
+}
+
+@keyframes parade-march {
     from {
-        background-position: 0% 0%;
+        transform:
+            translateX(-12%);
     }
 
     to {
-        background-position: 100% 100%;
-    }
-}
-
-@keyframes governmental-pulse {
-    from {
-        filter: saturate(1);
-    }
-
-    to {
-        filter: saturate(1.8) brightness(1.12);
-    }
-}
-
-@keyframes ceremonial-wobble {
-    from {
-        transform: rotate(-2deg) scale(1);
-    }
-
-    to {
-        transform: rotate(2deg) scale(1.08);
+        transform:
+            translateX(12%);
     }
 }
 
 @keyframes warning-flash {
-    0% {
-        color: yellow;
-        background: black;
+    from {
+        filter:
+            brightness(100%);
+
+        transform:
+            scale(1);
     }
 
-    50% {
-        color: black;
-        background: yellow;
+    to {
+        filter:
+            brightness(150%);
+
+        transform:
+            scale(1.05);
+    }
+}
+
+@keyframes navigation-shudder {
+    from {
+        transform:
+            scale(1.16)
+            rotate(-4deg);
+    }
+
+    to {
+        transform:
+            scale(1.22)
+            rotate(4deg);
+    }
+}
+
+@keyframes heading-rainbow {
+    0% {
+        background-position:
+            0% 50%;
     }
 
     100% {
-        color: white;
-        background: red;
+        background-position:
+            100% 50%;
     }
 }
 
-@keyframes navigation-panic {
+@keyframes notice-pulse {
     from {
-        transform: scale(1.2) rotate(-4deg);
+        filter:
+            saturate(100%)
+            brightness(100%);
     }
 
     to {
-        transform: scale(1.3) rotate(4deg);
+        filter:
+            saturate(190%)
+            brightness(130%);
     }
 }
 
-@keyframes input-emergency {
+@keyframes input-wiggle {
     from {
-        transform: translateX(-3px);
+        transform:
+            translateX(-3px);
     }
 
     to {
-        transform: translateX(3px);
+        transform:
+            translateX(3px);
+    }
+}
+
+@keyframes button-rainbow {
+    0% {
+        background-position:
+            0% 50%;
+    }
+
+    100% {
+        background-position:
+            100% 50%;
     }
 }
 
 @keyframes button-breathe {
     from {
-        transform: scale(1) rotate(-1deg);
+        transform:
+            scale(1)
+            rotate(-1deg);
     }
 
     to {
-        transform: scale(1.08) rotate(1deg);
+        transform:
+            scale(1.08)
+            rotate(1deg);
     }
 }
 
-/* =========================================================
-   MOBILE GOVERNMENTAL DISASTER CONTROL
-   ========================================================= */
+@keyframes footer-rainbow {
+    0% {
+        background-position:
+            0% 50%;
+    }
+
+    100% {
+        background-position:
+            100% 50%;
+    }
+}
+
+
+/* -----------------------------
+   MOBILE VERSION
+   ----------------------------- */
 
 @media (max-width: 700px) {
     header {
         box-shadow:
-            0 10px 0 red,
-            0 20px 0 orange,
-            0 30px 0 yellow,
-            0 40px 0 lime,
-            0 50px 0 cyan;
+            0 8px 0 #5bcffa,
+            0 16px 0 #f5abb9,
+            0 24px 0 white,
+            0 32px 0 #f5abb9,
+            0 40px 0 #5bcffa;
+    }
+
+    header::before {
+        font-size:
+            1.3rem;
     }
 
     h1 {
-        font-size: 2.3rem;
+        font-size:
+            2.3rem;
 
         text-shadow:
-            2px 2px 0 red,
-            4px 4px 0 orange,
-            6px 6px 0 yellow,
-            8px 8px 0 blue;
-    }
-
-    main {
-        width: 94%;
-
-        margin-top: 90px;
-        padding: 12px;
-
-        border-width: 10px;
-        outline-width: 6px;
-
-        box-shadow:
-            0 0 0 10px yellow,
-            0 0 0 16px red;
-    }
-
-    section {
-        padding: 18px;
-
-        box-shadow:
-            inset 0 0 20px hotpink,
-            7px 7px 0 orange;
+            2px 2px 0 black,
+            4px 4px 0 red,
+            6px 6px 0 orange,
+            8px 8px 0 yellow,
+            10px 10px 0 blue;
     }
 
     nav a {
-        display: block;
+        display:
+            block;
 
-        margin: 15px auto;
+        width:
+            90%;
+
+        margin:
+            18px auto;
+    }
+
+    main {
+        width:
+            94%;
+
+        margin-top:
+            85px;
+
+        padding:
+            13px;
+
+        border-width:
+            10px;
+
+        outline-width:
+            6px;
+
+        box-shadow:
+            0 0 0 10px yellow,
+            0 0 0 17px purple;
+    }
+
+    section {
+        padding:
+            20px;
+
+        box-shadow:
+            8px 8px 0 hotpink,
+            14px 14px 0 cyan;
+    }
+
+    section::before {
+        position:
+            static;
+
+        display:
+            inline-block;
+
+        margin-bottom:
+            10px;
+    }
+
+    h2 {
+        font-size:
+            1.7rem;
+    }
+
+    button {
+        width:
+            100%;
+
+        border-radius:
+            8px;
     }
 }
 
-/* =========================================================
-   ACCESSIBILITY: REDUCE THE STATE-MANDATED THRASHING
-   ========================================================= */
+
+/* -----------------------------
+   REDUCED MOTION
+   The government grudgingly permits calm.
+   ----------------------------- */
 
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
     *::after {
-        animation: none !important;
-        scroll-behavior: auto !important;
+        animation:
+            none !important;
+
+        scroll-behavior:
+            auto !important;
     }
 }
