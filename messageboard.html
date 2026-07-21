@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Public Message Board | Government of Rohoecopudoffcali</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Government of the Kakistocracy of Rohoecopudoffcali</h1>
+    <p><strong>Official Government Portal</strong></p>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="messageboard.html">Message Board</a>
+    </nav>
+
+    <hr>
+</header>
+
+<main>
+
+    <section>
+        <h2>Public Communications Board</h2>
+
+        <p>
+            This board contains official notices and public communications
+            issued by authorized representatives of the Government.
+        </p>
+
+        <p>
+            Members of the public may read all notices. Posting privileges are
+            restricted to personnel possessing a valid Security Code.
+        </p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Official Notices</h2>
+
+        <div id="message-list">
+            <!-- Messages will appear here. -->
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Submit an Official Notice</h2>
+
+        <form id="message-form">
+            <p>
+                <label for="official-name">Name or Office:</label><br>
+                <input
+                    type="text"
+                    id="official-name"
+                    required
+                    maxlength="80"
+                >
+            </p>
+
+            <p>
+                <label for="message-title">Notice Title:</label><br>
+                <input
+                    type="text"
+                    id="message-title"
+                    required
+                    maxlength="120"
+                >
+            </p>
+
+            <p>
+                <label for="message-body">Notice:</label><br>
+                <textarea
+                    id="message-body"
+                    rows="8"
+                    required
+                    maxlength="1500"
+                ></textarea>
+            </p>
+
+            <p>
+                <label for="security-code">Security Code:</label><br>
+                <input
+                    type="password"
+                    id="security-code"
+                    required
+                >
+            </p>
+
+            <button type="submit">Submit Official Notice</button>
+        </form>
+
+        <p id="form-response" aria-live="polite"></p>
+    </section>
+
+</main>
+
+<footer>
+    <hr>
+
+    <p>
+        Government of the Kakistocracy of Rohoecopudoffcali
+    </p>
+
+    <p>
+        Unauthorized communications may be referred to the
+        Department of Mild Concern.
+    </p>
+</footer>
+
+<script src="messageboard.js"></script>
+
+</body>
+</html>
